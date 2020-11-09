@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt-get -y update
-apt-get -y upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 
 logger "Installing DVWA"
 
