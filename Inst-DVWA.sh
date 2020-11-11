@@ -1,13 +1,13 @@
 #!/bin/bash
 
-apt-get update -y
-apt-get upgrade -y
+apt-get -y update
+apt-get -y upgrade
 
 logger "Installing DVWA"
 
 # install required packages
 # bash cd ~
-bash sudo apt install apache2 mysql-server php php-mysqli php-gd libapache2-mod-php git -y
+sudo apt install apache2 mysql-server php php-mysqli php-gd libapache2-mod-php git -y
 
 # install DVWA
 # bash cd ~
