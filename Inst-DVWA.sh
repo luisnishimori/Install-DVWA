@@ -10,8 +10,8 @@ logger "Installing DVWA"
 sudo apt install apache2 mysql-server php php-mysqli php-gd libapache2-mod-php git -y
 
 # install DVWA
-# bash cd ~
-# bash git clone --recursive https://github.com/ethicalhack3r/DVWA.git
+bash cd ~
+bash git clone --recursive https://github.com/ethicalhack3r/DVWA.git
 # bash sudo rm /var/www/html/index.html
 # bash sudo cp -r ~/DVWA/* /var/www/html/
 # bash cd /var/www/html
